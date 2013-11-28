@@ -1,10 +1,4 @@
-*.dcu
+*.o
 *.~*~
-*.local
-*.identcache
-__history
-*.drc
-*.map
-*.exe
-*.dll
-bin/*
+*.ppu
+backup/*.bak
