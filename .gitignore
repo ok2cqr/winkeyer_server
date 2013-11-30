@@ -3,3 +3,5 @@
 *.ppu
 backup/*.bak
 backup
+*.compiled
+*.or
