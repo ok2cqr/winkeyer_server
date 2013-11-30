@@ -1,0 +1,15 @@
+Legend:
+  # info
+  + new feature
+  - bugfix
+--------------------
+0.3.0
+  + program works in Ubuntu 12.04 and later
+0.2.0
+  + program shows if WinKeyerUSB was inicialized successfuly
+  - problem with increasing (+) and decreasing (-) CW speed in sending text  - fixed
+
+0.1.0 (2007-09-29)
+  initial version
+
+
