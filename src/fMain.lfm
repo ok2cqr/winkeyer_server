@@ -154,7 +154,7 @@ object frmMain: TfrmMain
         Width = 100
       end    
       item
-        Text = 'Version 0.3'
+        Text = 'Version 0.4.0'
         Width = 100
       end>
     SimplePanel = False

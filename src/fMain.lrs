@@ -35,6 +35,6 @@ LazarusResources.Add('TfrmMain','FORMDATA',[
   +'TMemo'#1'm'#4'Left'#2#0#6'Height'#3#211#0#3'Top'#2#0#5'Width'#3'z'#1#5'Alig'
   +'n'#7#8'alClient'#8'TabOrder'#2#0#0#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'
   +#2#0#6'Height'#2#20#3'Top'#3#211#1#5'Width'#3'~'#1#6'Panels'#14#1#4'Text'#6
-  +#10'(c) OK2CQR'#5'Width'#2'd'#0#1#4'Text'#6#11'Version 0.3'#5'Width'#2'd'#0#0
-  +#11'SimplePanel'#8#0#0#0
+  +#10'(c) OK2CQR'#5'Width'#2'd'#0#1#4'Text'#6#13'Version 0.4.0'#5'Width'#2'd'#0
+  +#0#11'SimplePanel'#8#0#0#0
 ]);
