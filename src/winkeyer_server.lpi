@@ -34,7 +34,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="6">
       <Unit0>
         <Filename Value="winkeyer_server.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -51,13 +51,14 @@
         <Filename Value="fMain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fMain"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="76"/>
-        <CursorPos X="37" Y="95"/>
+        <TopLine Value="184"/>
+        <CursorPos X="69" Y="202"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -67,7 +68,7 @@
         <UnitName Value="uCWKeying"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="38"/>
+        <TopLine Value="37"/>
         <CursorPos X="22" Y="49"/>
         <UsageCount Value="13"/>
         <Bookmarks Count="2">
@@ -90,132 +91,136 @@
         <CursorPos X="23" Y="33"/>
         <UsageCount Value="11"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="synaser.pas"/>
+        <UnitName Value="synaser"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1867"/>
+        <CursorPos X="66" Y="1906"/>
+        <UsageCount Value="10"/>
+      </Unit5>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Caret Line="49" Column="27" TopLine="22"/>
       </Position1>
       <Position2>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="150" Column="5" TopLine="135"/>
+        <Caret Line="61" Column="34" TopLine="46"/>
       </Position2>
       <Position3>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="230" Column="1" TopLine="202"/>
+        <Caret Line="19" Column="15" TopLine="4"/>
       </Position3>
       <Position4>
-        <Filename Value="fMain.pas"/>
-        <Caret Line="105" Column="28" TopLine="1"/>
+        <Filename Value="uCWKeying.pas"/>
+        <Caret Line="234" Column="16" TopLine="220"/>
       </Position4>
       <Position5>
         <Filename Value="fMain.pas"/>
-        <Caret Line="178" Column="9" TopLine="172"/>
+        <Caret Line="194" Column="72" TopLine="172"/>
       </Position5>
       <Position6>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="105" Column="12" TopLine="99"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="202" Column="45" TopLine="179"/>
       </Position6>
       <Position7>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="52" Column="39" TopLine="48"/>
+        <Caret Line="106" Column="13" TopLine="91"/>
       </Position7>
       <Position8>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="51" Column="34" TopLine="37"/>
+        <Caret Line="229" Column="7" TopLine="206"/>
       </Position8>
       <Position9>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="234" Column="27" TopLine="219"/>
+        <Caret Line="16" Column="1" TopLine="16"/>
       </Position9>
       <Position10>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="49" Column="27" TopLine="22"/>
+        <Caret Line="230" Column="28" TopLine="215"/>
       </Position10>
       <Position11>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="61" Column="34" TopLine="46"/>
+        <Caret Line="229" Column="3" TopLine="215"/>
       </Position11>
       <Position12>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="19" Column="15" TopLine="4"/>
+        <Caret Line="230" Column="4" TopLine="215"/>
       </Position12>
       <Position13>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="234" Column="16" TopLine="220"/>
+        <Caret Line="231" Column="58" TopLine="215"/>
       </Position13>
       <Position14>
         <Filename Value="fMain.pas"/>
-        <Caret Line="194" Column="72" TopLine="172"/>
+        <Caret Line="63" Column="112" TopLine="49"/>
       </Position14>
       <Position15>
         <Filename Value="fMain.pas"/>
-        <Caret Line="202" Column="45" TopLine="179"/>
+        <Caret Line="127" Column="13" TopLine="106"/>
       </Position15>
       <Position16>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="106" Column="13" TopLine="91"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="128" Column="33" TopLine="112"/>
       </Position16>
       <Position17>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="229" Column="7" TopLine="206"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="230" Column="18" TopLine="196"/>
       </Position17>
       <Position18>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="16" Column="1" TopLine="16"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="229" Column="13" TopLine="197"/>
       </Position18>
       <Position19>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="230" Column="28" TopLine="215"/>
+        <Filename Value="winkeyer_server.lpr"/>
+        <Caret Line="1" Column="22" TopLine="1"/>
       </Position19>
       <Position20>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="229" Column="3" TopLine="215"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="178" Column="41" TopLine="173"/>
       </Position20>
       <Position21>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="230" Column="4" TopLine="215"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="35" Column="66" TopLine="13"/>
       </Position21>
       <Position22>
-        <Filename Value="uCWKeying.pas"/>
-        <Caret Line="231" Column="58" TopLine="215"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="36" Column="76" TopLine="13"/>
       </Position22>
       <Position23>
         <Filename Value="fMain.pas"/>
-        <Caret Line="63" Column="112" TopLine="49"/>
+        <Caret Line="37" Column="76" TopLine="13"/>
       </Position23>
       <Position24>
         <Filename Value="fMain.pas"/>
-        <Caret Line="127" Column="13" TopLine="106"/>
+        <Caret Line="39" Column="76" TopLine="14"/>
       </Position24>
       <Position25>
         <Filename Value="fMain.pas"/>
-        <Caret Line="128" Column="33" TopLine="112"/>
+        <Caret Line="40" Column="76" TopLine="14"/>
       </Position25>
       <Position26>
         <Filename Value="fMain.pas"/>
-        <Caret Line="230" Column="18" TopLine="196"/>
+        <Caret Line="41" Column="76" TopLine="14"/>
       </Position26>
       <Position27>
         <Filename Value="fMain.pas"/>
-        <Caret Line="229" Column="13" TopLine="197"/>
+        <Caret Line="199" Column="69" TopLine="181"/>
       </Position27>
       <Position28>
-        <Filename Value="winkeyer_server.lpr"/>
-        <Caret Line="1" Column="22" TopLine="1"/>
+        <Filename Value="fMain.pas"/>
+        <Caret Line="200" Column="69" TopLine="182"/>
       </Position28>
       <Position29>
         <Filename Value="fMain.pas"/>
-        <Caret Line="16" Column="8" TopLine="109"/>
+        <Caret Line="201" Column="69" TopLine="183"/>
       </Position29>
-      <Position30>
-        <Filename Value="fMain.pas"/>
-        <Caret Line="178" Column="41" TopLine="173"/>
-      </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="lnet/lib"/>

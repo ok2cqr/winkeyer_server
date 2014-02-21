@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ComCtrls, lNetComponents, lNet, uCWKeying, inifiles;
+  StdCtrls, ComCtrls, Menus, ActnList, lNetComponents, lNet, uCWKeying,
+  inifiles;
 
 const
   AllowedChars     = ['A'..'Z', 'a'..'z', '0'..'9', '/', ',', '.', '?', '!', ' ',
@@ -18,6 +19,9 @@ type
   { TfrmMain }
 
   TfrmMain = class(TForm)
+    acClose: TAction;
+    acPreferences: TAction;
+    ActionList1: TActionList;
     btnServer: TButton;
     btnOpenKeyer: TButton;
     edtSpeed: TEdit;
@@ -33,7 +37,13 @@ type
     lblCWInfo: TLabel;
     lblInfo: TLabel;
     m:   TMemo;
+    MainMenu1: TMainMenu;
+    MenuItem1: TMenuItem;
+    MenuItem2: TMenuItem;
+    MenuItem3: TMenuItem;
+    MenuItem4: TMenuItem;
     StatusBar1: TStatusBar;
+    procedure acCloseExecute(Sender: TObject);
     procedure btnServerClick(Sender: TObject);
     procedure btnOpenKeyerClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
@@ -169,6 +179,11 @@ begin
     btnServer.Caption := 'Start server';
     lblInfo.Caption   := 'Server is NOT running'
   end
+end;
+
+procedure TfrmMain.acCloseExecute(Sender: TObject);
+begin
+  Close
 end;
 
 procedure TfrmMain.btnOpenKeyerClick(Sender: TObject);
