@@ -64,7 +64,7 @@ uses
 {$ENDIF}
   synafpc,
 {$IFNDEF WIN32}
-  Libc, SysUtils;
+  SysUtils;
 {$ELSE}
   Windows;
 {$ENDIF}
@@ -351,4 +351,4 @@ begin
   IconvCS.Free;
 end;
 
-end.
+end.

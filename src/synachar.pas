@@ -66,7 +66,7 @@ interface
 
 uses
 {$IFNDEF WIN32}
-  Libc,
+
 {$ELSE}
   Windows,
 {$ENDIF}
@@ -1473,7 +1473,7 @@ end;
 
 function GetCurCP: TMimeChar;
 begin
-  Result := GetCPFromID(nl_langinfo(_NL_CTYPE_CODESET_NAME));
+  Result := UTF_8;//GetCPFromID(nl_langinfo(_NL_CTYPE_CODESET_NAME));
 end;
 
 function GetCurOEMCP: TMimeChar;
@@ -2002,4 +2002,4 @@ begin
   IconvArr[112].Charname := 'CP1125';
 end;
 
-end.
+end.

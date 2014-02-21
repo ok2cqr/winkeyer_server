@@ -1899,7 +1899,8 @@ begin
   {$IFNDEF FPC}
   SerialCheck(ioctl(integer(FHandle), TCFLSH, TCIOFLUSH));
   {$ELSE}
-  SerialCheck(fpioctl(integer(FHandle), TCFLSH, TCIOFLUSH));
+  SerialCheck(fpioctl(integer(FHandle), TCFLSH, Pointer(PtrInt(TCIOFLUSH))));
+  //SerialCheck(fpioctl(integer(FHandle), TCFLSH, TCIOFLUSH));
   {$ENDIF}
   FBuffer := '';
   ExceptCheck;
@@ -2107,7 +2108,7 @@ begin
     sOK:               Result := 'OK';
     ErrAlreadyOwned:   Result := 'Port owned by other process';{HGJ}
     ErrAlreadyInUse:   Result := 'Instance already in use';    {HGJ}
-    ErrWrongParameter: Result := 'Wrong paramter at call';     {HGJ}
+    ErrWrongParameter: Result := 'Wrong parameter at call';    {HGJ}
     ErrPortNotOpen:    Result := 'Instance not yet connected'; {HGJ}
     ErrNoDeviceAnswer: Result := 'No device answer detected';  {HGJ}
     ErrMaxBuffer:      Result := 'Maximal buffer length exceeded';
