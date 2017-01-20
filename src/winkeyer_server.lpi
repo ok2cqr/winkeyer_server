@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
     <Version Value="9"/>
@@ -7,7 +7,6 @@
       <Title Value="winkeyer_server"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
-      <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <VersionInfo>
       <Language Value=""/>
@@ -34,14 +33,11 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="winkeyer_server.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="winkeyer_server"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="4" Y="15"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -53,11 +49,7 @@
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fMain"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="184"/>
+        <TopLine Value="202"/>
         <CursorPos X="69" Y="202"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
@@ -65,9 +57,7 @@
       </Unit1>
       <Unit2>
         <Filename Value="uCWKeying.pas"/>
-        <UnitName Value="uCWKeying"/>
-        <EditorIndex Value="1"/>
-        <WindowIndex Value="0"/>
+        <EditorIndex Value="2"/>
         <TopLine Value="37"/>
         <CursorPos X="22" Y="49"/>
         <UsageCount Value="13"/>
@@ -79,28 +69,33 @@
       </Unit2>
       <Unit3>
         <Filename Value="../../../../usr/share/fpcsrc/2.2.4/rtl/inc/systemh.inc"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="558"/>
         <CursorPos X="11" Y="558"/>
         <UsageCount Value="11"/>
       </Unit3>
       <Unit4>
         <Filename Value="../../../../usr/share/fpcsrc/2.2.4/rtl/inc/wstringh.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="23" Y="33"/>
         <UsageCount Value="11"/>
       </Unit4>
       <Unit5>
         <Filename Value="synaser.pas"/>
-        <UnitName Value="synaser"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="1867"/>
         <CursorPos X="66" Y="1906"/>
         <UsageCount Value="10"/>
       </Unit5>
+      <Unit6>
+        <Filename Value="lnet/lib/lcommon.pp"/>
+        <UnitName Value="lCommon"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="485"/>
+        <CursorPos X="18" Y="515"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="uCWKeying.pas"/>
         <Caret Line="49" Column="27" TopLine="22"/>
@@ -135,7 +130,7 @@
       </Position8>
       <Position9>
         <Filename Value="uCWKeying.pas"/>
-        <Caret Line="16" Column="1" TopLine="16"/>
+        <Caret Line="16" TopLine="16"/>
       </Position9>
       <Position10>
         <Filename Value="uCWKeying.pas"/>
@@ -175,7 +170,7 @@
       </Position18>
       <Position19>
         <Filename Value="winkeyer_server.lpr"/>
-        <Caret Line="1" Column="22" TopLine="1"/>
+        <Caret Column="22"/>
       </Position19>
       <Position20>
         <Filename Value="fMain.pas"/>
@@ -217,6 +212,9 @@
         <Filename Value="fMain.pas"/>
         <Caret Line="201" Column="69" TopLine="183"/>
       </Position29>
+      <Position30>
+        <Filename Value="lnet/lib/lcommon.pp"/>
+      </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -237,12 +235,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerMessages>
-        <UseMsgFile Value="True"/>
-      </CompilerMessages>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
