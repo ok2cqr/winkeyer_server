@@ -12,7 +12,6 @@ uses
 {$IFDEF WINDOWS}{$R winkey_server.rc}{$ENDIF}
 
 begin
-  {$I winkeyer_server.lrs}
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
   Application.Run;
