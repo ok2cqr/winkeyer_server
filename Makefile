@@ -10,6 +10,7 @@ winkeyer_server: src/winkeyer_server.lpi
 
 clean:
 	rm -f -v src/*.o src/*.ppu src/*.bak src/lnet/lib/*.ppu src/lnet/lib/*.o src/lnet/lib/*.bak src/winkeyer_server src/winkeyer_server.compiled src/winkeyer_server.or
+	rm -f -v src/*.lrs
 #	rm -f -v tools/cqrlog.1.gz
 	
 install:
