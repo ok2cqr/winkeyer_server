@@ -5,12 +5,14 @@ UDP server allows operation of the Winkey USB by K1EL with any Linux program wit
 
 # Installation
 
-sudo apt install lazarus
-make
-sudo make install
+`sudo apt install lazarus`
+
+`make`
+
+`sudo make install`
 
 # Usage
 
-winkeyer_server
+`winkeyer_server`
 
 Start the keyer connection first, confirm running, then start the server. 
